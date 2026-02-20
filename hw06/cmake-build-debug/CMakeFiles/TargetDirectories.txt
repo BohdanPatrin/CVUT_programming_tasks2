@@ -1,0 +1,3 @@
+C:/Programming/BIE-PA1_2024/hw06/cmake-build-debug/CMakeFiles/hw06.dir
+C:/Programming/BIE-PA1_2024/hw06/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Programming/BIE-PA1_2024/hw06/cmake-build-debug/CMakeFiles/rebuild_cache.dir

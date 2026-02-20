@@ -1,0 +1,3 @@
+C:/Users/Богдан Патрин.DESKTOP-T1T6GS8/CLionProjects/hw03/cmake-build-debug/CMakeFiles/hw03.dir
+C:/Users/Богдан Патрин.DESKTOP-T1T6GS8/CLionProjects/hw03/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Богдан Патрин.DESKTOP-T1T6GS8/CLionProjects/hw03/cmake-build-debug/CMakeFiles/rebuild_cache.dir
