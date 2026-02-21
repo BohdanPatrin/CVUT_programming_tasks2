@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: C:/Programming/BIE-PA2_2025/hw05
+=======
+# Install script for directory: C:/Programming/BIE-PA1_2024/hw05
+>>>>>>> 4b0c98f8138f8292c7c7cf3a69db324e51a922e2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +49,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "C:/Programming/BIE-PA2_2025/hw05/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "C:/Programming/BIE-PA1_2024/hw05/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> 4b0c98f8138f8292c7c7cf3a69db324e51a922e2
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

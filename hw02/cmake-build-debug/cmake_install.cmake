@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: C:/Programming/BIE-PA2_2025/hw02
+=======
+# Install script for directory: C:/Users/Богдан Патрин.DESKTOP-T1T6GS8/CLionProjects/hw02
+>>>>>>> 4b0c98f8138f8292c7c7cf3a69db324e51a922e2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +38,11 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
+<<<<<<< HEAD
   set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/objdump.exe")
+=======
+  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2023.1.3/bin/mingw/bin/objdump.exe")
+>>>>>>> 4b0c98f8138f8292c7c7cf3a69db324e51a922e2
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +53,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "C:/Programming/BIE-PA2_2025/hw02/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "C:/Users/Богдан Патрин.DESKTOP-T1T6GS8/CLionProjects/hw02/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> 4b0c98f8138f8292c7c7cf3a69db324e51a922e2
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

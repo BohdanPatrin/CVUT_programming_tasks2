@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 C:/Programming/BIE-PA2_2025/hw02/cmake-build-debug/CMakeFiles/hw02.dir
 C:/Programming/BIE-PA2_2025/hw02/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Programming/BIE-PA2_2025/hw02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+=======
+C:/Users/Богдан Патрин.DESKTOP-T1T6GS8/CLionProjects/hw02/cmake-build-debug/CMakeFiles/hw02.dir
+C:/Users/Богдан Патрин.DESKTOP-T1T6GS8/CLionProjects/hw02/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Богдан Патрин.DESKTOP-T1T6GS8/CLionProjects/hw02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+>>>>>>> 4b0c98f8138f8292c7c7cf3a69db324e51a922e2

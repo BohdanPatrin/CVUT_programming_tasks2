@@ -12,6 +12,7 @@
 # =============================================================================
 
 #############################################
+<<<<<<< HEAD
 # Rule for compiling CXX files.
 
 rule CXX_COMPILER__hw06_unscanned_Debug
@@ -27,6 +28,23 @@ rule CXX_COMPILER__hw06_unscanned_Debug
 rule CXX_EXECUTABLE_LINKER__hw06_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
+=======
+# Rule for compiling C files.
+
+rule C_COMPILER__hw06_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__hw06_Debug
+  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+>>>>>>> 4b0c98f8138f8292c7c7cf3a69db324e51a922e2
   restat = $RESTAT
 
 
@@ -42,7 +60,11 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
+<<<<<<< HEAD
   command = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Programming\BIE-PA2_2025\hw06 -BC:\Programming\BIE-PA2_2025\hw06\cmake-build-debug
+=======
+  command = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Programming\BIE-PA1_2024\hw06 -BC:\Programming\BIE-PA1_2024\hw06\cmake-build-debug
+>>>>>>> 4b0c98f8138f8292c7c7cf3a69db324e51a922e2
   description = Re-running CMake...
   generator = 1
 

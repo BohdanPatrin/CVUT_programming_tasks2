@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 C:/Programming/BIE-PA2_2025/hw06/cmake-build-debug/CMakeFiles/hw06.dir
 C:/Programming/BIE-PA2_2025/hw06/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Programming/BIE-PA2_2025/hw06/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+=======
+C:/Programming/BIE-PA1_2024/hw06/cmake-build-debug/CMakeFiles/hw06.dir
+C:/Programming/BIE-PA1_2024/hw06/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Programming/BIE-PA1_2024/hw06/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+>>>>>>> 4b0c98f8138f8292c7c7cf3a69db324e51a922e2

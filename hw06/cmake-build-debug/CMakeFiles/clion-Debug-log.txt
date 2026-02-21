@@ -1,11 +1,17 @@
+<<<<<<< HEAD
 "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Programming\BIE-PA2_2025\hw06 -B C:\Programming\BIE-PA2_2025\hw06\cmake-build-debug
 -- The C compiler identification is GNU 13.1.0
 -- The CXX compiler identification is GNU 13.1.0
+=======
+"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Programming\BIE-PA1_2024\hw06 -B C:\Programming\BIE-PA1_2024\hw06\cmake-build-debug
+-- The C compiler identification is GNU 13.1.0
+>>>>>>> 4b0c98f8138f8292c7c7cf3a69db324e51a922e2
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
 -- Check for working C compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
+<<<<<<< HEAD
 -- Detecting CXX compiler ABI info
 -- Detecting CXX compiler ABI info - done
 -- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/g++.exe - skipped
@@ -14,3 +20,8 @@
 -- Configuring done (2.7s)
 -- Generating done (0.0s)
 -- Build files have been written to: C:/Programming/BIE-PA2_2025/hw06/cmake-build-debug
+=======
+-- Configuring done (2.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Programming/BIE-PA1_2024/hw06/cmake-build-debug
+>>>>>>> 4b0c98f8138f8292c7c7cf3a69db324e51a922e2
